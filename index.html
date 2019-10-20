@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/game.css">
+
+</head>
+
+<body oncontextmenu="return false">
+    <button onclick="selectLevel(this)"> Easy</button>
+    <button onclick="selectLevel(this)"> Medium</button>
+    <button onclick="selectLevel(this)"> Hard</button>
+    <div class="time">0:00:00</div>
+    <table border="1" cellpadding="10">
+        <tbody class="board" ></tbody>
+    </table>
+
+    <div class="msg"></div>
+    <button class="restart" onclick="init">Restart</button>
+
+    <!-- <script src="js/game.js"></script> -->
+    <script src="js/gameMineSwap.js"></script>
+
+
+</html>

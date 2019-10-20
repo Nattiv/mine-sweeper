@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    
+}
+.board{
+    text-align: center;
+}
+.board :hover{
+    cursor: pointer;
+}
+
+td{
+    padding: 15px;
+    background-color: rgb(122, 122, 206)
+}
+      
+.hidden{
+    display: none;
+    color: rgb(235, 220, 220);
+}
+.restart{
+    display: none;
+}
+.mineBoom{
+    color: red;
+}
+button{
+    padding: 20px;
+ 
+}
+.cellShown{
+    background-color: rgb(212, 164, 164);
+}
